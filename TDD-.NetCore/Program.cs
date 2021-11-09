@@ -11,9 +11,9 @@ namespace TDD_.NetCore
         {
             User user = new User
             {
-                FirstName = "Nicolas",
-                LastName = "Fontes",
-                Email = "nicolas.rfontes@gmail.com",
+                FirstName = "Mateus",
+                LastName = "Macedo",
+                Email = "mateus.macedo@live.com",
                 BirthDate = new DateTime(1993, 02, 17)
             };
             Console.WriteLine("Concatenate: "+user.ConcatenateName());

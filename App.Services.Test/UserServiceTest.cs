@@ -17,12 +17,12 @@ namespace App.Services.Test
         [Test]
         public void MustInsertUser()
         {
-            user.Email = "nicolas.rfontes@gmail.com";
-            user.FirstName = "Nicolas";
-            user.LastName = "Fontes";
+            user.Email = "mateus.macedo@live.com";
+            user.FirstName = "Mateus";
+            user.LastName = "Macedo";
             Assert.IsNotNull(_userService.InsertUser(user));
 
-            user.Email = "nicolas.rfontesgmail.com";
+            user.Email = "mateus.macedo.com";
             Assert.IsNull(_userService.InsertUser(user));
         }
     }

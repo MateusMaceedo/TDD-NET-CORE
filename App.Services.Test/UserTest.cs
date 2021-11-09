@@ -40,9 +40,9 @@ namespace Tests
         [Test]
         public void ValidEmail()
         {
-            user.Email = "nicolas.rfontesgmail";
+            user.Email = "mateus.macedolive.com";
             Assert.False(user.ValidEmail());
-            user.Email = "nicolas.rfontes@gmail.com";
+            user.Email = "mateus.macedo@live.com";
             Assert.True(user.ValidEmail());
         }
 
